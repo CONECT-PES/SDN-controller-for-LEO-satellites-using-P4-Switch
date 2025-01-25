@@ -1,5 +1,11 @@
 # SDN-controller-for-LEO-satellites-using-P4-Switch
 
+
+
+![image](https://github.com/user-attachments/assets/417d8901-6ca8-4954-beec-0f7f4805ccee)
+
+
+
 ## Project Overview
 This project aims to develop a novel satellite communication architecture leveraging Software-Defined Networking (SDN) for Low Earth Orbit (LEO) satellites. The solution integrates **GNU Radio** and **Mininet** with **P4 programming** to enhance satellite network traffic control, demonstrating improved Quality of Service (QoS) across different scenarios.
 
@@ -9,7 +15,7 @@ This project aims to develop a novel satellite communication architecture levera
 - **Simulation and Validation**: Performance validation through three scenarios:
   - With SDN
   - Without SDN
-  - SDN with streaming overload
+  - SDN with P4 switch
 - **Future Scope**: Exploring FPGA deployment for performance improvements.
 
 ## Tools and Technologies
@@ -28,14 +34,6 @@ This project aims to develop a novel satellite communication architecture levera
 - Perform comparative results analysis to showcase the performance benefits of the P4 switch with SDN.
 - Conduct iPerf3 tests for accurate performance measurements.
 - Explore FPGA deployment for enhanced efficiency.
-
-## Challenges and Risks
-- Availability of the Python scripts from related research.
-- Dependency on guidance from the original paper's authors.
-
-## Workload Division
-- **iPerf3 Test Methodology**: Rohith (4-5 days)
-- **SDN Controller with P4 Switch**: Nirupama (5 days)
 
 ## Improvements
 - Implement P4 programs on an FPGA for potential performance enhancements.
